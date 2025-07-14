@@ -15,13 +15,26 @@ name = "wifi-checker"
 version = "0.1.0"
 authors = ["RAJ ROY"]
 build = false
+exclude = [
+    "target/*",
+    "*.log",
+    "*.tmp",
+    "*.bak",
+    "tests/*",
+    "examples/*",
+    "docs/*",
+    ".github/*",
+    ".vscode/*",
+    "screenshots/*",
+    "assets/*",
+]
 autolib = false
 autobins = false
 autoexamples = false
 autotests = false
 autobenches = false
 description = "A CLI tool to display saved WiFi networks and their passwords."
-readme = false
+readme = "README.md"
 keywords = [
     "wifi",
     "password",
