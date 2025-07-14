@@ -1,0 +1,14 @@
+[package]
+name = "wifi-checker"
+version = "0.1.0"
+edition = "2024"
+authors = ["RAJ ROY"]
+description = "A CLI tool to display saved WiFi networks and their passwords."
+keywords = ["wifi", "password", "network", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.3.0", features = ["derive"] }
+prettytable = "0.10"
+colored = "2"
+comfy-table = "6.1.3"
