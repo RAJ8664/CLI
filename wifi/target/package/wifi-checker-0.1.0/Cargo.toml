@@ -42,6 +42,7 @@ keywords = [
     "cli",
 ]
 categories = ["command-line-utilities"]
+license = "MIT"
 
 [[bin]]
 name = "wifi-checker"
