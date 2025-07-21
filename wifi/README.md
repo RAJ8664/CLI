@@ -1,5 +1,7 @@
 # WiFi Password Checker
 
+[Click here to view the crate on crates.io](https://crates.io/crates/wifi-checker)
+
 A simple command-line tool for Linux to quickly view the passwords of your saved WiFi networks. It reads data from NetworkManager via the `nmcli` command.
 
 ## Description
