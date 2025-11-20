@@ -1,0 +1,15 @@
+[package]
+name = "rnytd"
+version = "0.1.0"
+edition = "2024"
+description = "A simple and interactive command-line tool for downloading YouTube videos and extracting audio."
+repository = "https://github.com/rkroy/rnytd"
+homepage = "https://github.com/rkroy/rnytd"
+license = "MIT"
+keywords = ["youtube", "download", "audio", "cli", "video"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+dialoguer = "0.11"
+indicatif = "0.17"
+console = "0.15"
