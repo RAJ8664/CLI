@@ -1,6 +1,6 @@
 [package]
 name = "rnytd"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "A simple and interactive command-line tool for downloading YouTube videos and extracting audio."
 repository = "https://github.com/raj8664/cli/rnytd"
